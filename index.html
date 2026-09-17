@@ -119,7 +119,7 @@
     <div class="f"><b>관찰자</b><input name="i_observer" type="text"></div>
     <div class="f"><b>동승일</b><input name="i_date" type="text" placeholder="예: 2026-09-17"></div>
     <div class="f"><b>셔틀 선생님</b><input name="i_driver" type="text"></div>
-    <div class="f"><b>차량번호</b><input name="i_car" type="text"></div>
+    <div class="f"><b>호차</b><input name="i_car" type="text"></div>
     <div class="f"><b>노선/구간</b><input name="i_route" type="text"></div>
     <div class="f"><b>구분</b><input name="i_type" type="text" placeholder="등원 / 하원 / 시험장"></div>
   </div>
@@ -149,17 +149,6 @@
           <label class="bad"><input type="radio" name="q2" value="개선필요">✕ 개선필요</label>
         </span>
         <input class="memo" name="m2" type="text" placeholder="메모">
-      </div>
-    </div>
-    <div class="item">
-      <div class="q">당일 <b>배차·픽업 지점·명단</b>을 어떻게 확인/전달받는가? (데스크와 소통 방식)</div>
-      <div class="row">
-        <span class="seg">
-          <label class="good"><input type="radio" name="q3" value="잘함">○ 잘함</label>
-          <label class="warn"><input type="radio" name="q3" value="보통">△ 보통</label>
-          <label class="bad"><input type="radio" name="q3" value="개선필요">✕ 개선필요</label>
-        </span>
-        <input class="memo" name="m3" type="text" placeholder="메모(실제 방식 기록)">
       </div>
     </div>
   </section>
@@ -239,7 +228,7 @@
       </span><input class="memo" name="m11" type="text" placeholder="메모"></div>
     </div>
     <div class="item">
-      <div class="q"><b>배웅 인사</b>(수고하셨습니다 등)를 건네는가?</div>
+      <div class="q"><b>배웅 인사</b>를 건네는가?</div>
       <div class="row"><span class="seg">
         <label class="good"><input type="radio" name="q12" value="잘함">○ 잘함</label>
         <label class="warn"><input type="radio" name="q12" value="보통">△ 보통</label>
@@ -265,31 +254,7 @@
   </section>
 
   <section>
-    <div class="sec-h"><span class="n">5</span><h2>시험장 셔틀 (해당 시)</h2></div>
-    <div class="item">
-      <div class="q">시험 시간에 <b>여유 있게</b> 도착하도록 관리하는가? (출발 시각·동선)</div>
-      <div class="row"><span class="seg">
-        <label class="good"><input type="radio" name="q15" value="잘함">○ 잘함</label>
-        <label class="warn"><input type="radio" name="q15" value="보통">△ 보통</label>
-        <label class="bad"><input type="radio" name="q15" value="개선필요">✕ 개선필요</label>
-      </span><input class="memo" name="m15" type="text" placeholder="메모"></div>
-    </div>
-    <div class="item">
-      <div class="q">긴장한 고객에게 <b>안정감·응원</b>을 주는가?</div>
-      <div class="row"><span class="seg">
-        <label class="good"><input type="radio" name="q16" value="잘함">○ 잘함</label>
-        <label class="warn"><input type="radio" name="q16" value="보통">△ 보통</label>
-        <label class="bad"><input type="radio" name="q16" value="개선필요">✕ 개선필요</label>
-      </span><input class="memo" name="m16" type="text" placeholder="메모"></div>
-    </div>
-    <div class="item">
-      <div class="q">시험장·환승 하차 지점(예: 복정) <b>실제 운영 방식</b>은?</div>
-      <div class="row"><input class="memo" name="m17" type="text" placeholder="실제 동선·방식 그대로 기록"></div>
-    </div>
-  </section>
-
-  <section>
-    <div class="sec-h"><span class="n">6</span><h2>실제 오간 말 채집</h2></div>
+    <div class="sec-h"><span class="n">5</span><h2>실제 오간 말 채집</h2></div>
     <div class="quote">
       <div class="lab" style="color:var(--good);">✅ 좋았던 표현 (그대로 받아적기)</div>
       <textarea name="t_good" rows="2"></textarea>
@@ -301,7 +266,7 @@
   </section>
 
   <section>
-    <div class="sec-h"><span class="n">7</span><h2>고객 반응 · 특이사항 · 개선 아이디어</h2></div>
+    <div class="sec-h"><span class="n">6</span><h2>고객 반응 · 특이사항 · 개선 아이디어</h2></div>
     <textarea name="t_free" rows="4"></textarea>
   </section>
 
@@ -311,7 +276,7 @@
   </div>
 
   <div class="foot">
-    <span>셔틀 동승 참관 체크리스트 · v0.3 · 셔틀 서비스 바이블 보강용</span>
+    <span>셔틀 동승 참관 체크리스트 · v0.4 · 셔틀 서비스 바이블 보강용</span>
     <span class="tag">운전선생 DOX</span>
   </div>
 
